@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 function Login() {
   const navigate = useNavigate();
-  const url = "http://localhost:4000";
+  const url = "https://rirm-assignment-backend.onrender.com";
   const [current, setcurrent] = useState("Login");
   const [data, setdata] = useState({
     name: "",
